@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>maffin website</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+
+/* 
+    .file-input::before {
+        content: "";
+        display: inline-block;
+        width: 20px;
+        height: 20px;
+        background-image: url("./pictures/maffin7.jpg");
+        background-size: cover;
+        margin-right: 5px;
+    } */
+
+    </style>
+</head>
+<body class="flex justify-center">
+    <div class="w-5/6">
+        <header class="w-full flex justify-between items-center py-5">
+            <p class="mx-8 font-black">маффин</p>
+            <nav class="w-full flex justify-between hidden lg:flex items-center">
+                <div class="flex">
+                    <p class="mx-8">О нас</p>
+                    <p class="mx-8">Цены</p>
+                    <p class="mx-8">Доставка</p>
+                    <p class="mx-8">Блог</p>
+                    <p class="mx-8">Контакты</p>
+                </div>
+                <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Позвонить</button>
+            </nav>
+            <button class="inline-block lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                  </svg>
+            </button>
+        </header>
+        <main>
+            <div class="flex">
+                <div class="w-full md:w-1/2 lg:w-1/2 flex flex-col pt-32">
+                    <p class="text-4xl font-black">Свежие маффины на любой вкус и цвет</p>
+                    <p class="mb-4 mt-2">Мы готовим маленькие сладости для больших улыбок, с поводом и без</p>
+                    <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg w-[max-content]">Подробнее</button>
+                </div>
+                <div class="w-1/2 mr-2 hidden md:block md:w-1/2 md:ml-4 lg:w-1/4">
+                    <img src="./pictures/maffin1.png" class="rounded-[50px]" alt="">
+                    <div class="bg-[#B20803] md:hidden lg:block opacity-50 rounded-[50px] h-20 mt-20"></div>
+                </div>
+                <div class="w-1/4 ml-2 hidden lg:block">
+                    <div class="bg-[#524F5C] opacity-75 rounded-[50px] h-20 mb-20"></div>
+                    <img src="./pictures/maffin2.png" class="rounded-[50px]" alt="">
+                </div>
+            </div>
+
+            <div class="flex my-20 flex-col">
+                <div class="w-full flex justify-center">
+                    <h1 class="font-black">Сладости на праздник</h1>
+                </div>
+                <div class="grid grid-cols-2 md:grid-cols-3">
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">День рождения</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">Свадьба</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">8 марта</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">День влюбленных</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">Новый год</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                    <div class="flex justify-center items-center flex-col mx-1 my-3">
+                        <img src="./pictures/maffin3.png" class="rounded-[50px]" alt="" name="eventImage">
+                        <label for="eventImage" class="my-4">Корпоратив</label>
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] rounded-lg">Заказать</button>
+                    </div>
+
+                </div>
+            </div>
+
+            <div>
+                <div class="w-full flex justify-center">
+                    <h1 class="font-black">Почему мы?</h1>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 mt-10">
+
+                    <div class="rounded-t-[60px] rounded-b-xl flex flex-col bg-[#C49D6F] opacity-50 items-center p-5 mx-1 my-2">
+                        <img src="./pictures/maffin4.svg" alt="">
+                        <p class="my-3 text-center">Мы работаем с любовью!</p>
+                            <p class="text-center">Огромный опыт и высокая квалификация специалистов гарантируют безупречное качество заказов!</p>
+                    </div>
+
+                    <div class="rounded-t-[60px] rounded-b-xl flex flex-col bg-[#C49D6F] opacity-50 items-center p-5 mx-1 my-2">
+                        <img src="./pictures/maffin5.svg" alt="">
+                        <p class="my-3 text-center">Бережная доставка!</p>
+                            <p class="text-center">Мы упакуем все ваши маффины в коробки и бережно доставим!</p>
+                    </div>
+
+                    <div class="rounded-t-[60px] rounded-b-xl flex flex-col bg-[#C49D6F] opacity-50 items-center p-5 mx-1 my-2">
+                        <img src="./pictures/maffin6.svg" alt="">
+                        <p class="my-3 text-center">Натураальные продукты!</p>
+                            <p class="text-center">Отстутсвие в макарунсах консервантов и красителей, карантирует безопасность для здоровья!</p>
+                    </div>
+
+                </div>
+
+                <div class="rounded-tl-[30px] rounded-tr-[50px] rounded-br-[30px] rounded-bl-[50px] bg-[#78780E] opacity-75 p-10 flex grid grid-cols-1 md:grid-cols-3 items-center">
+                    <div class="m-3 flex flex-col text-center">
+                         <b>3</b> 
+                         <p class="text-center">года опыта</p> 
+                    </div>
+
+                    <div class="m-3flex flex-col text-center">
+                        <b>8000</b> 
+                        <p class="text-center">заказанных макарунсов</p>
+                    </div>
+
+                    <div class="m-3flex flex-col text-center">
+                        <b>1000</b>
+                        <p class="text-center">довольных клиентов</p>
+                    </div>
+                </div>
+
+                <div class="flex justify-around m-10">
+                    <img src="./pictures/maffin2.png" class="hidden lg:w-2/5 lg:block rounded-tl-[70px] rounded-br-[70px]" alt="">
+                    <form action="" class="flex flex-col text-center w-full lg:w-2/5">
+                        <h1 class="font-black text-xl">Закажи макарун по фото</h1>
+                        <input type="text" placeholder="Имя" class="p-4 border border-2 border-[#000] m-2">
+                        <input type="text" placeholder="Номер" class="p-4 border border-2 border-[#000] m-2">
+                        <input type="text" placeholder="Загрузить фотографию" class="p-4 border border-2 border-[#000] m-2">
+                        <button class="btn bg-[#B20803] px-[30px] py-[10px] m-2 rounded-lg w-[max-content]">Заказать</button>
+                    </form>
+                </div>
+            </div>
+
+            <div class="flex m-10 flex-col">
+                <div class="w-full justify-center text-center mb-10">
+                    <p class="font-black text-2xl">Процесс реализации заказа</p>
+                </div>
+
+                <div class="grid-cols-2 lg:grid-cols-4 lg:flex">
+                    <div class="rounded-[30px] bg-[#C49D6F] opacity-75 p-5 text-center w-full lg:w-1/4 m-3">
+                        <p class="text-xl mb-5">Утверждаем заказ</p>
+                        <p>Получаем заказ и перезваниваем вам для уточнения деталей</p>
+                    </div>
+                    <div class="rounded-[30px] bg-[#524F5C] opacity-75 p-5 text-center w-full lg:w-1/4 m-3">
+                        <p class="text-xl mb-5">Готовим макарунсы</p>
+                        <p>Готовим вкусные маффины по выбранному вами рецепту</p>
+                    </div>
+                    <div class="rounded-[30px] bg-[#78780E] opacity-75 p-5 text-center w-full lg:w-1/4 m-3">
+                        <p class="text-xl mb-5">Отправляем</p>
+                        <p>Отправляем ваш заказ курьером</p>
+                    </div>
+                    <div class="rounded-[30px] bg-[#D05F54] opacity-75 p-5 text-center w-full lg:w-1/4 m-3">
+                        <p class="text-xl mb-5">Получение заказа</p>
+                        <p>После звонка курьера вы получаете свой заказ</p>
+                    </div>
+                </div>
+            </div>
+
+
+        </main>
+    </div>
+</body>
+</html>
